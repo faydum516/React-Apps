@@ -1,0 +1,31 @@
+.swipeButtons {
+    position: fixed;
+    bottom: 3.75vh;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.swipeButtons .MuiIconButton-root {
+    background-color: #fff;
+    box-shadow: 0 10px 53px 0 rgba(0, 0, 0, 0.3) !important; /* In fact, if you use the !important rule, it will override ALL previous styling rules for that specific property on that element! */
+}  
+.swipeButtonReplay {
+    padding: 2vw !important;
+    color: #f5b748 !important;
+}
+.swipeButtonClose {
+    padding: 2vw !important;
+    color: #ec5e6f !important;
+}
+.swipeButtonStar {
+    padding: 2vw !important;
+    color: #62b4f9 !important;
+}
+.swipeButtonLike {
+    padding: 2vw !important;
+    color: #76e2b3 !important;
+}
+.swipeButtonFlash {
+    padding: 2vw !important;
+    color: #915dd1 !important;
+} 
